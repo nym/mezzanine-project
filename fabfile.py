@@ -24,9 +24,11 @@ if sys.argv[0].split(os.sep)[-1] == "fab":
             conf["HOSTS"][0]
         except (KeyError, ValueError):
             raise ImportError
-    except (ImportError, AttributeError):
+    except AttributeError:
         print "Aborting, no hosts defined."
         exit()
+    except ImportError:
+        pass
 
 env.db_pass = conf.get("DB_PASS", None)
 env.admin_pass = conf.get("ADMIN_PASS", None)
