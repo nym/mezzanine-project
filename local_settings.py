@@ -1,5 +1,6 @@
 
 DEBUG = True
+TESTING = False
 
 DATABASES = {
     "default": {
