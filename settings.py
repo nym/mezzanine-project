@@ -333,11 +333,11 @@ FABRIC = {
      "HOSTS": ["192.168.124.12", ], # List of hosts to deploy to
      "VIRTUALENV_HOME":  "/home/vagrant", # Absolute remote path for virtualenvs
      "PROJECT_NAME": "mymezz", # Unique identifier for project
-     "REQUIREMENTS_PATH": "mezzanine/project_template/requirements/project.txt", # Path to pip requirements, relative to project
+     "REQUIREMENTS_PATH": "requirements/project.txt", # Path to pip requirements, relative to project
      "GUNICORN_PORT": 8000, # Port gunicorn will listen on
      "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
      "LIVE_HOSTNAME": "192.168.124.12", # Host for public site.
-     "REPO_URL": "git://github.com/stephenmcd/mezzanine.git", # Git or Mercurial remote repo URL for the project
+     "REPO_URL": "git://github.com/lorin/mezzanine-project.git", # Git or Mercurial remote repo URL for the project
      "DB_PASS": "password", # Live database password
      "ADMIN_PASS": "password", # Live admin user password
  }
