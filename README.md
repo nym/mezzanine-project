@@ -2,7 +2,8 @@
 
 Do a production-style deployment of mezzanine inside an Ubuntu virtual machine (VM).
 
-The deployment uses Fabric scripts that come with Mezzanine. It configures PostgreSQL as the backend database, gunicorn as the WSGI server, Nginx as the front-web server with memcached, and Supervisor to control gunicorn.
+The deployment uses Fabric scripts that come with Mezzanine. It configures PostgreSQL as the backend database,
+Gunicorn as the WSGI server, Nginx as the front-web server with memcached, and Supervisor to control gunicorn.
 
 ## 1. Install the prequisites
 
