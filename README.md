@@ -26,6 +26,7 @@ If you haven't downloaded this repository yet, grab it from github:
 
 Use Vagrant to boot the virtual machine and Fabric to install Mezzanine.
 
+    cd mezzanine-project
     vagrant up
     fab all
 
