@@ -20,7 +20,7 @@ Run the following command once to import an Ubuntu 12.04 ("Precise Pangolin") im
 ## Grab this repository
 If you haven't downloaded this repository yet, grab it from github:
 
-    git clone http://github.com/lorin/mezzanine-project
+    git clone http://github.com/nimbis/mezzanine-project
 
 ##  Boot the virtual machine and install Mezzanine
 
