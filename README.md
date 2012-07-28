@@ -38,7 +38,7 @@ Point your browser to <http://192.168.124.12>.
 
 Log in to the admin interface <http://192.168.124.12/admin/> using the default account (username: `admin`, password: `default`).
 
-You can also ssh to access the virtual machine (username: `vagrant`, password: `vagrant`).
+You can also ssh to 192.168.124.12 access the virtual machine (username: `vagrant`, password: `vagrant`).
 
 
 ## 6. Tear down your virtual machine
