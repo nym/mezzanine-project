@@ -139,7 +139,7 @@ SITE_ID = 1
 USE_I18N = False
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = "5e7f427b-5626-4936-9b6c-474a22d0b1c3cb32f2de-f271-4c49-a41c-38739a0a2ea5178f254e-e411-495b-af32-fc6fc3cde4f1
+SECRET_KEY = "5e7f427b-5626-4936-9b6c-474a22d0b1c3cb32f2de-f271-4c49-a41c-38739a0a2ea5178f254e-e411-495b-af32-fc6fc3cde4f1"
 
 # Tuple of IP addresses, as strings, that:
 #   * See debug comments, when DEBUG is true
