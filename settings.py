@@ -339,7 +339,7 @@ FABRIC = {
      "LIVE_HOSTNAME": "192.168.124.12", # Host for public site.
      "REPO_URL": "git://github.com/lorin/mezzanine-project.git", # Git or Mercurial remote repo URL for the project
      "DB_PASS": "password", # Live database password
-     "ADMIN_PASS": "password", # Live admin user password
+     "ADMIN_PASS": "default", # Live admin user password
  }
 
 
