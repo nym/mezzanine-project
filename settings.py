@@ -363,9 +363,6 @@ except ImportError:
 # set_dynamic_settings() will rewrite globals based on what has been
 # defined so far, in order to provide some better defaults where
 # applicable.
-try:
+if 'DJANGO_SETTINGS_MODULE' in os.environ::
     from mezzanine.utils.conf import set_dynamic_settings
     set_dynamic_settings(globals())
-except ImportError:
-    pass
-
